@@ -1,0 +1,69 @@
+:root {
+    --colorA: #000000;
+    --colorB: #eadecf;
+    --colorC: #ffffff;
+
+}
+
+body {
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+
+    background-color: var(--colorC);
+    color: var(--colorA);
+
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 40px;
+
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+    flex-wrap: wrap;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacing {
+    margin: 20px 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+.maxWidth {
+    max-width: 350px;
+}
+
+/* Head */
+.headImage {
+    max-height: 80px;
+}
+
+/* Top Gallery */
+.topGallery img {
+    border-bottom: 10px solid var(--colorB);
+}
+
+/* About */
+.about {
+    flex-direction: row-reverse;
+}
