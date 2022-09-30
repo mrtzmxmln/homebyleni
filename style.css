@@ -120,6 +120,7 @@ p {
 /* bottom Gallery */
 .bottomGallery {
     background-color: var(--colorB);
+    color: var(--colorA);
     flex-wrap: nowrap;
 }
 
