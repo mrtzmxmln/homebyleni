@@ -1,3 +1,8 @@
+@font-face {
+    font-family: DancingScript;
+    src: url('./font/DancingScript.ttf');
+}
+
 :root {
     --colorA: #000000;
     --colorB: #eadecf;
@@ -73,6 +78,15 @@ h3 {
 h4 {
     margin: 10px;
     font-style: italic;
+}
+
+h5 {
+    color: var(--colorB);
+    font-family: 'DancingScript';
+    margin: 0;
+    font-size: 80px;
+    text-align: end;
+    transform: translateY(-49px);
 }
 
 p {
