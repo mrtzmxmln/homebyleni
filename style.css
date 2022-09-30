@@ -54,7 +54,7 @@ section {
 }
 
 .spacingTwo {
-    margin: 10px;
+    margin: 20px 10px 20px 10px;
 }
 
 .maxWidth {
@@ -120,19 +120,15 @@ p {
 /* bottom Gallery */
 .bottomGallery {
     background-color: var(--colorB);
-}
-
-.bottomGallery div {
-    width: auto;
+    flex-wrap: nowrap;
 }
 
 .bottomGallery img {
-    max-width: 40%;
-    max-height: 150px;
+    max-width: 20%;
+    max-height: 200px;
 }
 
 /* Contact */
-
 .socials img {
     max-width: 40px;
 }
