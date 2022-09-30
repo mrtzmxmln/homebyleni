@@ -72,6 +72,7 @@ h3 {
 
 h4 {
     margin: 10px;
+    font-style: italic;
 }
 
 p {
@@ -88,6 +89,10 @@ p {
 }
 
 /* Top Gallery */
+.topGallery {
+    justify-content: space-around;
+}
+
 .topGallery img {
     border-bottom: 10px solid var(--colorB);
     max-height: 300px;
@@ -101,6 +106,10 @@ p {
 /* bottom Gallery */
 .bottomGallery {
     background-color: var(--colorB);
+}
+
+.bottomGallery div {
+    width: auto;
 }
 
 .bottomGallery img {
