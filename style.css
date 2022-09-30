@@ -104,12 +104,13 @@ p {
 
 /* Top Gallery */
 .topGallery {
-    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .topGallery img {
     border-bottom: 10px solid var(--colorB);
-    max-height: 300px;
+    max-width: 30%;
+    padding-bottom: 10px;
 }
 
 /* About */
