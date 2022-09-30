@@ -56,13 +56,26 @@ section {
     max-width: 350px;
 }
 
+.maxWidth2 {
+    max-width: 400px;
+}
+
 /* headings */
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
 h3 {
     margin: 10px;
 }
 
 h4 {
     margin: 10px;
+}
+
+p {
+    text-align: justify;
 }
 
 /* Head */
@@ -77,11 +90,22 @@ h4 {
 /* Top Gallery */
 .topGallery img {
     border-bottom: 10px solid var(--colorB);
+    max-height: 300px;
 }
 
 /* About */
 .about {
     flex-direction: row-reverse;
+}
+
+/* bottom Gallery */
+.bottomGallery {
+    background-color: var(--colorB);
+}
+
+.bottomGallery img {
+    max-width: 40%;
+    max-height: 150px;
 }
 
 /* Contact */
