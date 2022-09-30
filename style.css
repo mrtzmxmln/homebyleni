@@ -2,8 +2,6 @@
     --colorA: #000000;
     --colorB: #eadecf;
     --colorC: #ffffff;
-    /* test */
-    /* test 2 */
 }
 
 body {
@@ -22,7 +20,7 @@ body {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     max-width: 100%;
     width: 100%;
@@ -45,16 +43,33 @@ section {
     align-items: center;
 }
 
-.spacing {
+.spacingOne {
     margin: 20px 20px 0 20px;
     padding-bottom: 20px;
+}
+
+.spacingTwo {
+    margin: 10px;
 }
 
 .maxWidth {
     max-width: 350px;
 }
 
+/* headings */
+h3 {
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
 /* Head */
+.headSection {
+    margin-top: 20px;
+}
+
 .headImage {
     max-height: 80px;
 }
@@ -67,4 +82,10 @@ section {
 /* About */
 .about {
     flex-direction: row-reverse;
+}
+
+/* Contact */
+
+.socials img {
+    max-width: 40px;
 }
