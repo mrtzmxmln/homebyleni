@@ -139,7 +139,8 @@ p {
 .socials {
     width: 100%;
 
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     background-color: var(--colorB);
 }
