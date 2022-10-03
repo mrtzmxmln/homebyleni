@@ -1,3 +1,9 @@
+/* fonts */
+@font-face {
+    font-family: "handwritten";
+    src: url(./font/Zapfino.ttf) format("truetype");
+}
+
 @font-face {
     font-family: DancingScript;
     src: url('./font/DancingScript.ttf');
@@ -17,6 +23,8 @@ body {
 
     background-color: var(--colorC);
     color: var(--colorA);
+
+    font-family: 'Times New Roman', Times, serif;
 
     overflow-x: hidden;
 }
@@ -84,7 +92,7 @@ h4 {
 
 h5 {
     color: var(--colorB);
-    font-family: 'DancingScript';
+    font-family: "handwritten";
     margin: 0;
 }
 
@@ -208,17 +216,18 @@ p {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .links {
     margin-top: 20px;
+    max-width: 400px;
 }
 
 .linkTreeBox {
     max-width: 300px;
     width: 100%;
     height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .linkTreeLink {
