@@ -224,8 +224,8 @@ p {
 }
 
 .links p {
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .linkTreeBox {
