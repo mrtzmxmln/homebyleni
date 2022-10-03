@@ -223,6 +223,11 @@ p {
     max-width: 400px;
 }
 
+.links p {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
 .linkTreeBox {
     max-width: 300px;
     width: 100%;
