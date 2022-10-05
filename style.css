@@ -93,6 +93,7 @@ h5 {
     color: var(--colorB);
     font-family: "handwritten";
     margin: 0;
+    font-size: 30px;
 }
 
 p {
@@ -106,6 +107,11 @@ p {
 
 .headImage {
     max-height: 80px;
+}
+
+.headSection a {
+    width: 100%;
+    height: 100%;
 }
 
 /* Top Gallery */
@@ -127,8 +133,7 @@ p {
 
 .about h5 {
     text-align: end;
-    transform: translateY(-49px);
-    font-size: 80px;
+    /* transform: translateY(-54px); */
 }
 
 /* bottom Gallery */
@@ -186,9 +191,9 @@ p {
 }
 
 .contact h5 {
-    font-size: 30px;
     margin: 0;
     transform: translateY(-18px) translateX(10px);
+    font-size: 18px;
 }
 
 .fullWidth {
@@ -211,7 +216,7 @@ p {
 }
 
 /* links */
-.linksBody {
+.flexCenter {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
@@ -260,4 +265,8 @@ p {
 /* Datenschutzerklärung */
 .datenSchutzBlock {
     width: 100%;
+}
+
+.quote {
+    font-style: italic;
 }
