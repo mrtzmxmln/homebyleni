@@ -199,13 +199,12 @@ p {
     margin: 0;
 }
 
-/* -- spacing cause not enough elements -- */
-.flexBeta {
-    justify-content: space-around;
-}
-
 .fullWidth {
     width: 100%;
+}
+
+.shad1 {
+    box-shadow: 5px 5px 5px lightgrey;
 }
 
 
