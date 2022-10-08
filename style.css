@@ -237,6 +237,10 @@ body {
     max-width: 300px;
 }
 
+/* -- contact -- */
+.contact {
+    margin-bottom: 0;
+}
 
 /* -- social -- */
 .socialBox {
