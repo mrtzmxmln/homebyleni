@@ -39,6 +39,10 @@
     align-items: center;
 }
 
+.spaceAround {
+    justify-content: space-around;
+}
+
 
 /* -- PADDING -- */
 .p1 {
@@ -101,6 +105,11 @@
 
 .m4 {
     margin: 20px;
+}
+
+.m4ToBo {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* -- BORDER RADIUS */
@@ -173,7 +182,11 @@ h2 {
     max-height: 100%;
 }
 
-/* -- align text as block -- */
+/* -- texty things -- */
+.factBox {
+    background-color: var(--colorAccent);
+}
+
 .textBox {
     background-color: var(--colorWhite);
 }
@@ -221,8 +234,8 @@ body {
 
 /* -- heading -- */
 .heading img {
-    width: 90vw;
-    max-width: 400px;
+    width: 50vw;
+    max-width: 300px;
 }
 
 
@@ -237,8 +250,8 @@ body {
     background-color: var(--colorWhite);
 }
 
-/* -- text -- */
-.text {
+/* -- comment -- */
+.comment {
     background-color: var(--colorAccent);
 }
 
