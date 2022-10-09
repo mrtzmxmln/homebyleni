@@ -107,10 +107,19 @@
     margin: 20px;
 }
 
+.m4To {
+    margin-top: 20px;
+}
+
+.m4Bo {
+    margin-bottom: 20px;
+}
+
 .m4ToBo {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
 /* -- BORDER RADIUS */
 .br1 {
@@ -168,6 +177,10 @@ h2 {
 /* -- desktop container -- */
 .container {
     max-width: 600px;
+}
+
+a {
+    color: inherit;
 }
 
 /* -- "full size Link" -- */
