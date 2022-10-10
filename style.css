@@ -43,6 +43,10 @@
     justify-content: space-around;
 }
 
+.spaceBetween {
+    justify-content: space-between;
+}
+
 
 /* -- PADDING -- */
 .p1 {
@@ -197,7 +201,6 @@ a {
 
 /* -- texty things -- */
 .factBox {
-    width: 160px;
     background-color: var(--colorAccent);
 }
 
