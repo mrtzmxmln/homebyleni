@@ -197,6 +197,7 @@ a {
 
 /* -- texty things -- */
 .factBox {
+    width: 160px;
     background-color: var(--colorAccent);
 }
 
