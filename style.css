@@ -227,7 +227,7 @@ body {
     margin: 0px;
 
     height: 100vh;
-    min-height: 100vh;
+    height: -webkit-fill-available;
     width: 100vw;
     max-width: 100%;
 
