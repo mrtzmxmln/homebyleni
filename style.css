@@ -39,6 +39,11 @@
     align-items: center;
 }
 
+.alignStart {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .spaceAround {
     justify-content: space-around;
 }
@@ -85,8 +90,18 @@
     padding-right: 15px;
 }
 
+.p3ToBo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .p4 {
     padding: 20px;
+}
+
+.p4ToBo {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* -- MARGIN -- */
@@ -277,6 +292,15 @@ html {
 /* -- comment -- */
 .comment {
     background-color: var(--colorAccent);
+}
+
+/* -- imprint -- */
+.imprint {
+    background-color: var(--colorAccent);
+}
+
+.imprint h1 {
+    margin-top: 0;
 }
 
 /* -- touch -- */
