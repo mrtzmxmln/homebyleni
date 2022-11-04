@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>home - home by leni</title>
+    <meta name="author" content="home by leni">
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="img/ico" href="./ico/logo_rounded.ico">
+
+    <meta name="description" content="Hausumbau Tagebuch: 574m&#178; Grundstück mit 110m&#178; Wohnfläche">
+    <meta name="keywords" content="home by leni, homebyleni, interior design, interiordesign, hausumbau, lübeck, luebeck">
+    <meta name="copyright" content="2022 HOMEBYLENI">
+
+</head>
+
+<body class="flexColumn alignCenter">
+
+    <h1 style="display: none;">home by leni</h1>
+    <h2 style="display: none;">hausumbau</h2>
+    <h2 style="display: none;">altbausanierung</h2>
+    <h2 style="display: none;">interior design</h2>
+
+    <section id="header" class="fullWidth flexColumn alignCenter">
+
+        <!-- navHead -->
+        <div id="navHead" class="fullWidth containerM flex spaceBetween">
+
+            <!-- Logo -->
+            <div onclick="openHome()" class="newLogoBox p5Sides">
+                <img class="imgFit" src="./png/Logo_black_trans.png" alt="">
+            </div>
+
+            <!-- navBurger -->
+            <div onclick="clickBurger()" class="navBurger flexColumn p5Sides">
+                <div class="burgerBar"></div>
+                <div class="burgerBar"></div>
+                <div class="burgerBar"></div>
+            </div>
+            
+        </div>
+
+        <!-- navBar -->
+        <nav id="navBar" class="fullWidth flex alignCenter p5ToBo">
+            <div class="containerM fullWidth flexRow spaceAround alignCenter">
+                <h3 onclick="openAbout()">about leni</h3>
+                <h3 onclick="openRoomtour()">roomtour</h3>
+                <h3 onclick="openContact()">contact</h3></a>
+            </div>
+        </nav>
+
+    </section>
+
+    <section  id="homeGallery" class="fullWidth flex alignCenter headMargin">
+
+        <div class="containerM fullWidth flexRow alignCenter">
+            <img class="imgFit" src="./png/homeGallery_V4_Ivory.png" alt="">
+        </div>
+
+    </section>
+
+    <section id="homeAbout" class="fullWidth flexColumn alignCenter m4ToBo">
+
+        <!-- homeAbout -->
+        <div class="containerM fullWidth flexRow flexWrap alignCenter">
+            <img class="m4Sides" src="./jpeg/homeAbout.JPG" alt="">
+            <div class="homeAboutText p4Sides">
+                <div class="flexColumn">
+                    <h3 class="fs3a">hi, my name is</h3>
+                    <p class="handWritten fs1">Leni</p>
+                </div>
+                <p class="textFormat fs3a">Herzlich Willkommen auf meiner Website. Gerne nehme ich dich in meinem Hausumbau mit. Wir sanieren zur Zeit einen Altbau von 1930. Das Haus hat 110 Quadratmeter Wohnfläche und eine Grundstücksgröße von 574 Quadratmetern. Nachdem wir Unmengen an Holzvertäfelung, Tapeten und Teppichen rausgerissen haben, ist das Haus nun vollkommen entkernt. Jetzt geht es an den Wiederaufbau, dem wir schon gespannt entgegenschauen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newBottomGallery" class="fullWidth flex alignCenter p5ToBo">
+
+        <div class="containerM flexRow flexWrap alignCenter m5Sides">
+            <div class="flexRow" style="max-width: 100%">
+                <div class="newImgBox">
+                    <img class="imgFit" src="./jpeg/bottomGallery_A.JPG" alt="">
+                    <h3>Schlafzimmer</h3>
+                </div>
+                <div class="newImgBox">
+                    <img class="imgFit" src="./jpeg/bottomGallery_B.JPG" alt="">
+                    <h3>Arbeitszimmer</h3>
+                </div>
+            </div>
+            <div class="flexRow">
+                <div class="newImgBox">
+                    <img src="./jpeg/bottomGallery_C.JPG" alt="">
+                    <h3>Badezimmer</h3>
+                </div>
+                <div class="newImgBox">
+                    <img src="./jpeg/bottomGallery_D.JPG" alt="">
+                    <h3>Wohnzimmer</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="fullWidth flex alignCenter">
+
+        <div class="containerM flexColumn alignCenter">
+            <h3 class="fs3a">Contact</h3>
+            <p style="transform: translateY(-10px);" class="handWritten">@homebyleni</p>
+        </div>
+
+    </section>
+
+    <section id="footer" class="fullWidth flexColumn alignCenter">
+
+        <div class="fullWidth flexColumn alignCenter m5ToBo">
+            <div class="containerM m4Sides fullWidth flexRow alignCenter">
+                <div onclick="openInstagram()" class="socialIcon flex alignCenter m6Sides">
+                    <img class="imgFit" src="./png/instagram.png" alt="Instagram">
+                </div>
+                <div onclick="openMail()" class="socialIcon flex alignCenter m6Sides">
+                    <img class="imgFit" src="./png/mail.png" alt="Instagram">
+                </div>
+            </div>
+        </div>
+
+        <div class="containerM fullWidth flexColumn alignCenter m5ToBo fs3b">
+            <div class="flexRow alignCenter">
+                <a onclick="openHome()" href="">about leni</a> | <a onclick="openRoomtour()" href="">room tour</a> | <a onclick="openContact()" href="./contact.html">contact</a>
+            </div>
+            <div class="flexRow alignCenter">
+                <a href="">impressum</a> | <a href="">datenschutz</a>
+            </div>
+            <div class="flexRow alignCenter">
+                <p>&#169; 2022 HOMEBYLENI</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+</html

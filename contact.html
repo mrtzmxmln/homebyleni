@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>contact - home by leni</title>
+    <meta name="author" content="home by leni">
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="img/ico" href="./ico/logo_rounded.ico">
+
+    <meta name="description" content="Hausumbau Tagebuch: 574m&#178; Grundstück mit 110m&#178; Wohnfläche">
+    <meta name="keywords" content="home by leni, homebyleni, interior design, interiordesign, hausumbau, lübeck, luebeck">
+    <meta name="copyright" content="2022 HOMEBYLENI">
+
+</head>
+
+<body>
+    
+    <h1 style="display: none;">contact - home by leni</h1>
+    <h2 style="display: none;">hausumbau</h2>
+    <h2 style="display: none;">altbausanierung</h2>
+    <h2 style="display: none;">interior design</h2>
+
+    <section id="header" class="fullWidth flexColumn alignCenter">
+
+        <!-- navHead -->
+        <div id="navHead" class="fullWidth containerM flex spaceBetween">
+
+            <!-- Logo -->
+            <div onclick="openHome()" class="newLogoBox p5Sides">
+                <img class="imgFit" src="./png/Logo_black_trans.png" alt="">
+            </div>
+
+            <!-- navBurger -->
+            <div onclick="clickBurger()" class="navBurger flexColumn p5Sides">
+                <div class="burgerBar"></div>
+                <div class="burgerBar"></div>
+                <div class="burgerBar"></div>
+            </div>
+            
+        </div>
+
+        <!-- navBar -->
+        <nav id="navBar" class="fullWidth flex alignCenter p5ToBo">
+            <div class="containerM fullWidth flexRow spaceAround alignCenter">
+                <h3 onclick="openAbout()">about leni</h3>
+                <h3 onclick="openRoomtour()">roomtour</h3>
+                <h3 onclick="openContact()">contact</h3></a>
+            </div>
+        </nav>
+
+    </section>
+
+    <section id="contactMain" class="fullWidth flex alignCenter headMargin">
+
+        <div class="containerM fullWidth flexRow alignCenter">
+            <div class="contactImgBox">
+                <img class="imgFit" src="./jpeg/homeAbout.JPG" alt="">
+            </div>
+            <div class="contactTextBox flexColumn alignCenter">
+                <h3 class="fs3">Contact Me</h3>
+                <br>
+                <p>Instagram: @homebyleni</p>
+                <p>Mail: homebyleni@gmx.de</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="impressum" class="fullWidth flex alignCenter">
+
+        <div class="containerM fullWidth flexRow alignCenter">
+            <div class="contactTextBox flexColumn alignCenter">
+                <h3 class="fs3">Impressum</h3>
+                <br>
+                <p>Lenike Stölken</p>
+                <p>Elswigstraße 27e</p>
+                <p>23562 Lübeck</p>
+            </div>
+            <div class="contactImgBox">
+                <img class="imgFit" src="./jpeg/impressum.JPG" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="fullWidth flex alignCenter">
+
+        <div class="containerM flexColumn alignCenter">
+            <h3 class="fs3a">Contact</h3>
+            <p style="transform: translateY(-10px);" class="handWritten">@homebyleni</p>
+        </div>
+
+    </section>
+
+    <section id="footer" class="fullWidth flexColumn alignCenter">
+
+        <div class="fullWidth flexColumn alignCenter m5ToBo">
+            <div class="containerM m4Sides fullWidth flexRow alignCenter">
+                <div onclick="openInstagram()" class="socialIcon flex alignCenter m6Sides">
+                    <img class="imgFit" src="./png/instagram.png" alt="Instagram">
+                </div>
+                <div onclick="openMail()" class="socialIcon flex alignCenter m6Sides">
+                    <img class="imgFit" src="./png/mail.png" alt="Instagram">
+                </div>
+            </div>
+        </div>
+
+        <div class="containerM fullWidth flexColumn alignCenter m5ToBo fs3b">
+            <div class="flexRow alignCenter">
+                <a onclick="openHome()" href="">about leni</a> | <a onclick="openRoomtour()" href="">room tour</a> | <a onclick="openContact()" href="./contact.html">contact</a>
+            </div>
+            <div class="flexRow alignCenter">
+                <a href="">impressum</a> | <a href="">datenschutz</a>
+            </div>
+            <div class="flexRow alignCenter">
+                <p>&#169; 2022 HOMEBYLENI</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
