@@ -509,6 +509,10 @@ body {
     text-align: center;
 }
 
+#homeAbout {
+    margin-bottom: 60px;
+}
+
 .homeAboutText {
     max-width: 400px;
     height: 100%;
@@ -535,9 +539,13 @@ body {
 }
 
 #newBottomGallery {
-    background-color: var(--colorSand);
     background-size: cover;
     background-position: center;
+}
+
+#newBottomGallery .containerM {
+    background-color: var(--colorSand);
+    padding: 15px;
 }
 
 .newImgBox {

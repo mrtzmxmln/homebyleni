@@ -10,7 +10,7 @@ function openAbout() {
     window.location = "./index.html";
 }
 
-function openRoomtour() {
+function openAboutMyHome() {
     window.open("https://www.instagram.com/stories/highlights/18321466900040779/");
 }
 
