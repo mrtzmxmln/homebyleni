@@ -522,8 +522,8 @@ body {
 }
 
 #homeAbout img {
-    width: 200px;
-    height: 300px;
+    width: 160px;
+    height: 250px;
     object-fit: cover;
     border: 8px solid var(--colorIvory);
 }
