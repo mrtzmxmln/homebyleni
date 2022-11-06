@@ -19,11 +19,11 @@ function openContact() {
 }
 
 function openImpressum() {
-    window.location.replace("./impressum.html");
+    window.location.replace("./contact.html#impressum");
 }
 
 function openDatenschutz() {
-    window.location.replace("./datenschutz.html");
+    window.location.replace("datenschutz.html");
 }
 
 function openMail() {
