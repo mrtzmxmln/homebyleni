@@ -3,11 +3,11 @@ const navBar = document.querySelector("#navBar");
 const navBurger = document.querySelector(".navBurger");
 
 function openHome() {
-    window.location = "./index.html";
+    window.location.replace("./index.html");
 }
 
 function openAbout() {
-    window.location = "./index.html";
+    window.location.replace("./index.html");
 }
 
 function openAboutMyHome() {
@@ -15,15 +15,15 @@ function openAboutMyHome() {
 }
 
 function openContact() {
-    window.location = "./contact.html";
+    window.location.replace("./contact.html");
 }
 
 function openImpressum() {
-    window.location = "./impressum.html";
+    window.location.replace("./impressum.html");
 }
 
 function openDatenschutz() {
-    window.location = "./datenschutz.html";
+    window.location.replace("./datenschutz.html");
 }
 
 function openMail() {
