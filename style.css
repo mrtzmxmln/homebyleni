@@ -657,3 +657,13 @@ h5 {
         font-size: 16px;
     }
 }
+
+/*-- Datenschutz Page --*/
+#datenschutz h2 {
+    margin-bottom: 0px;
+}
+
+#datenschutz h4 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}

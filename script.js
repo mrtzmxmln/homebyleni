@@ -22,6 +22,10 @@ function openImpressum() {
     window.open("https://homebyleni.de/contact.html#impressum");
 }
 
+function openDatenschutz() {
+    window.location = "./datenschutz.html";
+}
+
 function openMail() {
     window.open("mailto:homebyleni@gmx.de?subject=kontakt - home by leni");
 }
