@@ -19,7 +19,7 @@ function openContact() {
 }
 
 function openImpressum() {
-    window.open("https://homebyleni.de/contact.html#impressum");
+    window.location = "./impressum.html";
 }
 
 function openDatenschutz() {
