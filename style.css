@@ -527,6 +527,20 @@ body {
     border: 8px solid var(--colorIvory);
 }
 
+.aboutTextA {
+    display: none;
+}
+
+@media screen and (min-width: 670px) {
+    .aboutTextA {
+        display: flex;
+    }
+
+    .aboutTextB {
+        display: none;
+    }
+}
+
 #contact {
     margin-top: 20px;
 }
