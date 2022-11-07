@@ -3,11 +3,11 @@ const navBar = document.querySelector("#navBar");
 const navBurger = document.querySelector(".navBurger");
 
 function openHome() {
-    window.location.replace("./index.html");
+    window.open("https://homebyleni.de", "_self")
 }
 
 function openAbout() {
-    window.location.replace("./index.html");
+    window.open("https://homebyleni.de", "_self");
 }
 
 function openAboutMyHome() {
@@ -15,15 +15,15 @@ function openAboutMyHome() {
 }
 
 function openContact() {
-    window.location.replace("./contact.html");
+    window.open("https://homebyleni.de/contact.html", "_self");
 }
 
 function openImpressum() {
-    window.location.replace("./contact.html#impressum");
+    window.open("https://homebyleni.de/impressum.html", "_self");
 }
 
 function openDatenschutz() {
-    window.location.replace("datenschutz.html");
+    window.open("https://homebyleni.de/datenschutz.html", "_self");
 }
 
 function openMail() {
