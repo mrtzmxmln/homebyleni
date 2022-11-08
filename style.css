@@ -567,10 +567,9 @@ body {
 
 .newImgBox img {
     display: flex;
-    max-height: 230px;
-    width: 100%;
-    max-width: 200px;
-    object-fit: cover;
+    height: 260px;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 @media screen and (min-width: 670px) {
