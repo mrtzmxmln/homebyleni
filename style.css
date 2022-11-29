@@ -652,7 +652,7 @@ h5 {
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(242, 229, 218, 0.9);
 
     opacity: 1;
     transition: 2s all ease;
@@ -667,7 +667,7 @@ h5 {
 }
 
 .loader {
-    border: 5px solid var(--colorWhite);
+    border: 5px solid var(--colorBlack);
     border-top: 5px solid var(--colorSand);
     border-bottom: 5px solid var(--colorSand);
     border-radius: 50%;
