@@ -50,3 +50,13 @@ function clickBurger() {
     
     /* navBurger.classList.toggle('open'); */
 }
+
+function loadCheck(){
+    var loader = document.getElementById("Loader");
+    setTimeout(function(){
+        loader.classList.add("loadingScreenHide");
+        setTimeout(function(){
+            loader.classList.add("loadingScreenOff");
+        }, 2000);
+    }, 2000)   
+}
