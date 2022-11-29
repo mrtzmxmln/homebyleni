@@ -567,7 +567,7 @@ body {
 
 .newImgBox img {
     display: flex;
-    height: 260px;
+    height: auto;
     max-width: 100%;
     object-fit: contain;
 }
