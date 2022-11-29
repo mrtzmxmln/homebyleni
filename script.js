@@ -51,6 +51,7 @@ function clickBurger() {
     /* navBurger.classList.toggle('open'); */
 }
 
+
 function loadCheck(){
     var loader = document.getElementById("Loader");
     setTimeout(function(){
