@@ -425,7 +425,6 @@
 /*-- mobile formatting stuff --*/
 body {
     margin: 0px;
-    margin-top: 100px;
     padding: 0px;
     min-height: -webkit-fill-available;
     width: 100vw;
